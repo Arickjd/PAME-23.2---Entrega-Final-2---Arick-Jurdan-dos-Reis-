@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Empresa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Corpo da pagina -->
+    <div id="login">
+        <!-- parte superior -->
+        <div class="topo">
+            <div id="texto"><u>GitFluxo</u></div>
+            <div class="circle">
+                <img src="logo.png" alt="GitFluxo Logo">
+            </div>
+            <div id="frases">
+                <p>Let's build from here</p>
+            </div>
+        </div>
+        <!-- Meio da pagina -->
+        <div id="center">
+        <div class="Logar">
+            <h1>Sing in to GitFluxo</h1>
+        </div>
+        <!-- Card de login -->
+        <div id="card-login">
+            <div>
+                <form action="processar_login.php" method="post">
+                    <label for="username">Username or Email address:</label>
+                    <input type="text" id="username" name="username" placeholder="Username or Email address" required><br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </div>
+        </div>
+        <!-- Links da parte inferior -->
+        <div id="footer">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Docs</a>
+            <a href="#">Contact GitFluxo Support</a>
+            <a href="#">Do not share my personal information</a>
+    
+        </div>
+    </div>
+
+</body>
+</html>
